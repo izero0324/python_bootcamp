@@ -15,5 +15,7 @@ slice_num = int(input())
 print('how many attendees are coming to this event?')
 attendee = int(input())
 
-print('You are ordering %d pizzas, and each pizza has %d slices. If you have %d attendees, that is approximately %.2f slices per person' 
+print('You are ordering %d pizzas, and each pizza has %d slices. '
+    'If you have %d attendees, that is approximately %.2f slices per person' 
     %(pizza_num, slice_num, attendee, (pizza_num * slice_num)/attendee))
+
