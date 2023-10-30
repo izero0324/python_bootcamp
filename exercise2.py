@@ -1,3 +1,4 @@
+# Std input
 print("What's your favourite movie?")
 user_fav = input()
 
